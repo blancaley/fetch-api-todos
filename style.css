@@ -3,17 +3,26 @@ li {
   list-style: none;
 }
 
-:checked+label {
-  text-decoration: line-through;
-}
-
-[type="checkbox"][checked] {
-  background-color: forestgreen;
+body {
+  background-color: #f3eded;
+  color: #1b2b00;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 article {
-  border: 1px solid black;
+  border: 1px solid #44493b;;
   border-radius: 10px;
   margin-bottom: 1rem;
   padding: 1rem;
+  background-color: #f8f6f6;
+}
+
+/* Checkbox */
+:checked+label {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li.todo {
+  margin-bottom: .3rem;
 }

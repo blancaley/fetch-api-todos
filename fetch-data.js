@@ -36,6 +36,7 @@ const drawTodos = async () => {
 
 const addCheckbox = (todo, container) => {
   const li = document.createElement("li");
+  li.classList.add("todo");
 
   li.innerHTML = `
   <input type="checkbox" id="${todo.id}" name="${todo.title}" >
