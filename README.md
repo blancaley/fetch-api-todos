@@ -1,5 +1,6 @@
 # fetch-api-todos
 A todo list fetched and displayed from an API. 
+Watch live: https://blancaley.github.io/fetch-api-todos/ 
 
 ## Features used
 - Fetch API
